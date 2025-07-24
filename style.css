@@ -627,3 +627,83 @@ footer {
   margin-top: 5px;
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE VIEW TWEAKS */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 16px;
+  }
+
+  .hero-img {
+    width: 140px;
+    margin-bottom: 15px;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero p,
+  .countdown-box,
+  .typing-effect {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.95rem;
+  }
+
+  .tagalog-box,
+  .write-me,
+  .contact-form,
+  .timeline,
+  .blog-section,
+  .address-box,
+  .email-contact {
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+  }
+
+  .timeline-event {
+    padding-left: 50px;
+  }
+
+  .timeline-event .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    padding: 16px;
+    font-size: 0.9rem;
+  }
+}
