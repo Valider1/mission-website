@@ -1,5 +1,5 @@
 // Countdown
-const departureDate = new Date(2025, 9, 15); // Oct 15, 2025
+const departureDate = new Date(2025, 9, 15); // October 15, 2025
 const countdownEl = document.getElementById("countdown");
 
 function updateCountdown() {
@@ -15,7 +15,7 @@ function updateCountdown() {
   countdownEl.innerHTML = `📅 <strong>${days} days</strong> until I report!`;
 }
 
-// Typing Effect
+// Typing Scripture
 const verse = "“Behold, I am a disciple of Jesus Christ.” – 3 Nephi 5:13";
 let i = 0;
 
@@ -31,3 +31,14 @@ window.onload = () => {
   updateCountdown();
   typeText();
 };
+
+function copyEmail() {
+  const email = document.getElementById("email-text").innerText;
+  navigator.clipboard.writeText(email).then(() => {
+    const msg = document.getElementById("copied-msg");
+    msg.style.display = "block";
+    setTimeout(() => {
+      msg.style.display = "none";
+    }, 2000);
+  });
+}

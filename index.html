@@ -6,7 +6,7 @@
   <title>Jaden's Mission Journey</title>
   <link rel="stylesheet" href="style.css" />
 
-  <!-- AOS animation support (optional if you’re using it elsewhere) -->
+  <!-- AOS animation support (optional) -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
@@ -26,10 +26,59 @@
     <img src="images/jaden-flag.jpg" alt="Jaden with Flag" class="hero-img" />
     <h1>Called to Serve: Philippines Manila Mission</h1>
     <p>Join me as I prepare to serve the Lord and share His gospel.</p>
+
     <div class="countdown-box" id="countdown"></div>
     <p id="verse" class="typing-effect"></p>
-    <div class="flag-overlay"></div>
+
+    <!-- Waving flag background -->
+    <div class="flag-overlay animated-flag"></div>
   </header>
+
+<section class="tagalog-box" data-aos="fade-up">
+  <h3>🗣 Tagalog Word of the Week</h3>
+  <p><strong>Pananampalataya</strong> — (noun) <em>Faith or belief</em></p>
+  <p><em>Example:</em> “May <strong>pananampalataya</strong> ako sa plano ng Diyos.”<br>
+  (I have faith in God's plan.)</p>
+</section>
+
+
+<section class="write-me" id="write" data-aos="fade-up">
+  <h2>📬 Write Me While I’m On My Mission</h2>
+  <p>I would love letters, uplifting thoughts, or even snacks from home while I'm serving. Here’s how you can reach me:</p>
+
+  <div class="address-box">
+    <h3>🏠 MTC ( October 15 - December 11)</h3>
+    <p>
+      Elder Jaden Jenkins<br>
+      4970 Derryfeild Court, Waldorf Maryland, 20602<br>
+      (Label as: "Missionary - Do Not Deliver Sundays")
+    </p>
+  </div>
+
+  <div class="address-box">
+    <h3>🌏 Mission Address (after Oct 15)</h3>
+    <p>
+      Philippines Manila Mission<br>
+      119 HV Dela Costa St. Salcedo Village, <br>
+      Makati City 0714 Metro manila Philippines<br>
+      
+    </p>
+  </div>
+
+  <p>If you're unsure where to send it, message me through the contact form and my family can help!</p>
+</section>
+
+<div class="email-contact">
+  <h3>📧 Prefer to email me?</h3>
+  <p>
+    <span id="email-text">jenkins.jaden@missionary.org</span>
+    <button class="copy-btn" onclick="copyEmail()">📋 Copy</button>
+  </p>
+  <p class="copied-message" id="copied-msg">Copied!</p>
+</div>
+
+
+
 
   <!-- FOOTER -->
   <footer>
