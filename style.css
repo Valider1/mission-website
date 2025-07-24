@@ -1,4 +1,8 @@
 /* General Reset */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -338,4 +342,37 @@ footer {
   background-color: #f0f4f8;
   color: #0077cc;
   border-color: #0077cc;
+}
+
+.blog-section {
+  padding: 60px 20px;
+  background-color: #f9fcff;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog-section h2 {
+  font-size: 2rem;
+  color: #1E2D3C;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-post {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  border-left: 4px solid #0077cc;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.blog-post h3 {
+  margin-bottom: 8px;
+  color: #0077cc;
+}
+
+.blog-post p {
+  color: #444;
+  line-height: 1.5;
 }
