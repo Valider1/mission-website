@@ -13,7 +13,7 @@ function updateCountdown() {
 
   const days = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
 
-  countdownEl.innerHTML = `📅 <strong>${days} days</strong> until I report!`;
+  countdownEl.innerHTML = `📅 62 until I report!`;
 }
 
 // Typing Scripture
